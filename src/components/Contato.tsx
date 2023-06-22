@@ -3,6 +3,7 @@ import { PatternFormat } from "react-number-format";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useState } from "react";
+import { FooterMobile } from "./FooterMobile";
 interface FormState {
   nome: string;
   email: string;
@@ -41,11 +42,11 @@ export const Contato = () => {
               Contato
             </p>
           </div>
-          <div className="flex md:justify-center md:mt-10">
+          <div className="flex md:justify-center md:mt-10 ">
             <form
               action="https://api.staticforms.xyz/submit"
               method="post"
-              className="flex flex-col md:w-[400px] gap-4 my-10"
+              className="flex flex-col md:w-[400px] gap-4 my-10 "
             >
               <input
                 type="hidden"
@@ -136,6 +137,9 @@ export const Contato = () => {
             </form>
           </div>
         </div>
+      </div>
+      <div>
+        <FooterMobile />
       </div>
     </div>
   );
