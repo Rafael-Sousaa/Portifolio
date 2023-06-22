@@ -69,29 +69,31 @@ export const Projetos = () => {
                           className="hidden"
                         ></a>
                       </Button>
-                      <Button
-                        variant="contained"
-                        sx={{
-                          color: "white",
-                          background: "#393355",
-                          "&:hover": {
-                            background: "#25254d",
+                      {!item.hidenButton && (
+                        <Button
+                          variant="contained"
+                          sx={{
                             color: "white",
-                          },
-                        }}
-                        className="text-white "
-                        onClick={() => {
-                          document.getElementById(item.github)?.click();
-                        }}
-                      >
-                        <a
-                          href={item.github}
-                          target="_blank"
-                          id={item.github}
-                          className="hidden"
-                        ></a>
-                        <p>GitHub</p>
-                      </Button>
+                            background: "#393355",
+                            "&:hover": {
+                              background: "#25254d",
+                              color: "white",
+                            },
+                          }}
+                          className="text-white "
+                          onClick={() => {
+                            document.getElementById(item.github)?.click();
+                          }}
+                        >
+                          <a
+                            href={item.github}
+                            target="_blank"
+                            id={item.github}
+                            className="hidden"
+                          ></a>
+                          <p>GitHub</p>
+                        </Button>
+                      )}
                     </CardActions>
                   </div>
                 </Card>
