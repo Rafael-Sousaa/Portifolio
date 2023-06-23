@@ -6,11 +6,11 @@ export default defineConfig({
   plugins: [
     VitePWA({
       registerType: "autoUpdate",
-     
+
       manifest: {
         name: "Portifolio",
         short_name: "Portifolio",
-      
+
         icons: [
           {
             src: "/android-chrome-192x192.png",
@@ -28,7 +28,7 @@ export default defineConfig({
             type: "image/png",
           },
         ],
-        theme_color: "#ffffff",
+        theme_color: "#000000",
         background_color: "#ffffff",
         display: "standalone",
       },

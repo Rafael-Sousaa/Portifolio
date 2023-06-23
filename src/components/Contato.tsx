@@ -46,7 +46,7 @@ export const Contato = () => {
             <form
               action="https://api.staticforms.xyz/submit"
               method="post"
-              className="flex flex-col md:w-[400px] gap-4 my-10 "
+              className="flex flex-col md:w-[400px] w-full gap-4 my-10 "
             >
               <input
                 type="hidden"

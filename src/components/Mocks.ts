@@ -10,7 +10,7 @@ export const ProjetoMock = [
   },
   {
     id: "2",
-    img: "/assets/125700.png",
+    img: "/assets/Frame1.png",
     title: "Wir Tech",
     text: "Projeto pessoal utilizando as tecnologias TypeScript, Tailwind CSS e React, com o objetivo de criar uma site freelancer.",
     link: "https://animes-skull.vercel.app",
