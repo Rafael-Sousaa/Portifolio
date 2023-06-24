@@ -10,7 +10,7 @@ export const Home = () => {
     <>
       <div id="home" className="md:h-screen w-full pt-12">
         <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-white pt-10 md:pt-[370px] ">
-          <p className="text-gray-300 md:text-xl text-4xl">Oi, meu nome é</p>
+          <p className="text-gray-300 md:text-xl text-4xl">Olá, meu nome é</p>
           <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6] ">
             Rafael
           </h1>
